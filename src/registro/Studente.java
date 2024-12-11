@@ -22,14 +22,14 @@ Cercare uno studente per matricola.
 Uscire dal programma
  * */
 public class Studente {
-//attributi della classe studente
+									//attributi della classe studente
 	public String nome = " ";
 	public String cognome = " ";
 	public int matricola;
 	
 	
 	public Studente (String nome, String cognome, int matricola) {  
-		this.nome = nome; 			 //assegnazione p
+		this.nome = nome; 				 //assegnazione dei valori per ogni studente
 		this.cognome = cognome;
 		this.matricola = matricola;
 	}
